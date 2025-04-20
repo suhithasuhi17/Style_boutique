@@ -1,5 +1,4 @@
 import React from "react";
-import Cart from "./cart";
 import { Link } from "react-router-dom";
 
 const Rayon = () => {
