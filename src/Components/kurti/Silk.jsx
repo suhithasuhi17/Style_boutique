@@ -1,5 +1,4 @@
 import React from "react";
-import Cart from "./cart";
 import { Link } from "react-router-dom";
 import silk1 from "../../assets/images/silk1.png";
 import silk2 from "../../assets/images/silk2.png";
