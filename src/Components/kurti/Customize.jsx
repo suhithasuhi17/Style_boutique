@@ -138,12 +138,12 @@ const Customize = () => {
 
         {/* Ready Button */}
         <div className="text-center mt-8">
-          <button
+          <Link to="/tailors"
             onClick={handleReadyClick}
             className="bg-pink-500 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-pink-600 transition duration-300 shadow-lg"
           >
             Ready
-          </button>
+          </Link>
         </div>
       </div>
     </div>
