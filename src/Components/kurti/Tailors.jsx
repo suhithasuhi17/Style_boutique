@@ -1,13 +1,8 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const Tailors = () => {
-  const location = useLocation();
-  const { selectedImage, selectedSize, selectedNeck, selectedHand, selectedBottom } = location.state || {};
-
-  console.log({ selectedImage, selectedSize, selectedNeck, selectedHand, selectedBottom });
-
+  
   const [address, setAddress] = useState("");
   const [selectedTailor, setSelectedTailor] = useState(null);
   const [deliveryDate, setDeliveryDate] = useState("");
