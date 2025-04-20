@@ -4,7 +4,7 @@ const Kurta = () => {
   return (
     
     <div className="min-h-screen flex flex-col items-center bg-gradient-to-b from-yellow-200 to-orange-300 p-8">
-      <Cart/>
+     
       <h1 className="text-4xl font-bold text-gray-800 mb-4">Kurta Collection</h1>
       <p className="text-lg text-gray-700 mb-6">Discover the best materials for your perfect kurta.</p>
       
