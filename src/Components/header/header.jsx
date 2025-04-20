@@ -47,7 +47,7 @@ const Header = () => {
         >
           <Link
             to="/"
-            className="text-gray-800 lg:text-white font-medium hover:text-purple-600 transition block"
+            className="text-gray-800 lg:text-white font-medium hover:text-pink-600 transition block"
             onClick={handleNavLinkClick}
           >
             Home
@@ -55,7 +55,7 @@ const Header = () => {
 
           <Link
             to="/kurta"
-            className="text-gray-800 lg:text-white font-medium hover:text-purple-600 transition block"
+            className="text-gray-800 lg:text-white font-medium hover:text-pink-600 transition block"
             onClick={handleNavLinkClick}
           >
             Explore
@@ -63,14 +63,14 @@ const Header = () => {
 
           <Link
             to="/about"
-            className="text-gray-800 lg:text-white font-medium hover:text-purple-600 transition block"
+            className="text-gray-800 lg:text-white font-medium hover:text-pink-600 transition block"
             onClick={handleNavLinkClick}
           >
             About Us
           </Link>
           <Link
             to="/help"
-            className="text-gray-800 lg:text-white font-medium hover:text-purple-600 transition block"
+            className="text-gray-800 lg:text-white font-medium hover:text-pink-600 transition block"
             onClick={handleNavLinkClick}
           >
             Help
@@ -79,7 +79,7 @@ const Header = () => {
           {!isLoggedIn && (
             <Link
               to="/signin"
-              className="text-gray-800 lg:text-white font-medium hover:text-purple-600 transition block"
+              className="text-gray-800 lg:text-white font-medium hover:text-pink-600 transition block"
               onClick={handleNavLinkClick}
             >
               Login
