@@ -47,9 +47,7 @@ const Customize = () => {
     setErrors(newErrors);
 
     // Proceed only if no errors
-    if (Object.keys(newErrors).length === 0) {
-      window.location.href = "/tailors"; // Replace with proper routing logic if needed
-    }
+    
   };
 
   return (
