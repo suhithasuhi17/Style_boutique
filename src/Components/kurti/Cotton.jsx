@@ -1,5 +1,4 @@
 import React from "react";
-import Cart from "./cart";
 import { Link } from "react-router-dom";
 import cotton1 from "../../assets/images/cotton1.jpg";
 import cotton2 from "../../assets/images/cotton2.png";
